@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+.card{
+  width: 800px!important;
+  font-family: 'Lexend', sans-serif;
+}
+
+.img-card{
+  width: 60px!important;
+  height: 60px!important;
+  font-size: 25px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.sub-text{
+  color: #ccc;
+}
+
+.hr{
+  color: rgba(204, 201, 201, 0.836);
+}
+
+.title{
+  border-bottom: 2px solid #ffffff;
+  font-weight: bold;
+}
+hr{
+  height: 1px!important;
+  color: #ccc;
+}
+.icon{
+  background-color: rgba(204, 204, 204, 0.425);
+  border-radius: 50%;
+}
+input{
+  border: 0;
+  outline: none!important;
+  box-shadow: none!important;
+  color: #ccc!important;
+}
+.wiggle-bg{
+  background-image: url('../assets/blue-round.png');
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
+}
+
+.blue-bg{
+  background-image: url('../assets/wiggle-yellow.png');
+  background-position: right;
+  background-position-x: 650px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
