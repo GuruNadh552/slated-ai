@@ -12,19 +12,23 @@ export class AppComponent {
   socialIcons:any=[
   {
     "iconUrl":"../assets/icons/linkedin.svg",
-    "text":"LinkedIn"
+    "text":"LinkedIn",
+    "url":"https://in.linkedin.com/in/gurunadh-pukkalla-1964a8167"
   },
   {
     "iconUrl":"../assets/icons/github.svg",
-    "text":"Github"
+    "text":"Github",
+    "url":"https://github.com/GuruNadh552"
   },
   {
     "iconUrl":"../assets/icons/briefcase.svg",
-    "text":"Facebook"
+    "text":"Facebook",
+    "url":"#"
   },
   {
     "iconUrl":"../assets/icons/twitter.svg",
-    "text":"Twitter"
+    "text":"Twitter",
+    "url":"#"
   }]
 
   data:any={
@@ -37,10 +41,9 @@ export class AppComponent {
     if(ind==0)
       this.data.email = event.target.value;
     else if(ind==1)
-      return this.data.title = event.target.value;
+      this.data.title = event.target.value;
     else this.data.phone = event.target.value;
     console.log(this.data);
-
   }
 
   returnDatafromIndex(ind:Number){
